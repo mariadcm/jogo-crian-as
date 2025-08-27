@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: bb18f0e194ee006419814682f9620548
+guid: 74639f777be96ce4d90781fc05c561a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1108038235246377309
-    second: PERSONAGEM_0
-  - first:
-      213: 2818266859643232853
-    second: PERSONAGEM_1
+      213: 4054039739660938499
+    second: giraffa_certa-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PERSONAGEM_0
+      name: giraffa_certa-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 22
-        width: 1629
-        height: 1989
+        x: 85
+        y: 134
+        width: 124
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a6c69e78157f90f0800000000000000
-      internalID: -1108038235246377309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PERSONAGEM_1
-      rect:
-        serializedVersion: 2
-        x: 517
-        y: 0
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5526a4be6ce7c1720800000000000000
-      internalID: 2818266859643232853
+      spriteID: 30daecbf9a7d24830800000000000000
+      internalID: 4054039739660938499
       vertices: []
       indices: 
       edges: []
@@ -159,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      giraffa_certa-removebg-preview_0: 4054039739660938499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

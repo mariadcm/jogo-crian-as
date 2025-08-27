@@ -1,17 +1,14 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Para mudar de cena
+using UnityEngine.SceneManagement;
 
 public class SelecionarPersonagem : MonoBehaviour
 {
-    // Vamos guardar o nome do personagem que o jogador escolheu
     public static string personagemEscolhido;
 
-    // Função que será chamada quando clicar no botão
-    public void EscolherPersonagem(string nomePersonagem)
+    public void EscolherPersonagem(string nome)
     {
-        personagemEscolhido = nomePersonagem;
-        // Agora vamos para a cena do jogo (troque pelo nome da sua cena)
-        SceneManager.LoadScene("Consutorio");
-
+        personagemEscolhido = nome;
+        Debug.Log("Personagem selecionado: " + personagemEscolhido);
+        SceneManager.LoadScene("Consultorio"); // Troca para a cena desejada
     }
 }
