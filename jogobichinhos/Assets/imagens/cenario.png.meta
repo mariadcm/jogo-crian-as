@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 07eb10ece82c7f843aed9e9d44b46e02
+guid: 146683382a4d54149afff3deceaf8a64
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6098784544376750304
-    second: botao_jogo1play_0
+      213: -8147978088825045153
+    second: cenario_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: botao_jogo1play_0
+      name: cenario_0
       rect:
         serializedVersion: 2
-        x: 418
-        y: 165
-        width: 60
-        height: 60
+        x: 0
+        y: 0
+        width: 3508
+        height: 2394
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e00839fa3c33a450800000000000000
-      internalID: 6098784544376750304
+      spriteID: f5fbae919119cee80800000000000000
+      internalID: -8147978088825045153
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      botao_jogo1play_0: 6098784544376750304
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
