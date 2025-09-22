@@ -376,8 +376,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barraSaude: {fileID: 151081913}
   personagem: {fileID: 1685245003}
-  triste: {fileID: -7716157746369578016, guid: 1ec4c7e3f26ab054a90fe08380a4c5b5, type: 3}
-  feliz: {fileID: 4602719941086853991, guid: dbe358d433373864fad9a29918d814f4, type: 3}
+  triste: {fileID: 2889580193396966139, guid: ff6ed51b815d6ec448a53e95c033eaea, type: 3}
+  feliz: {fileID: 4054039739660938499, guid: 74639f777be96ce4d90781fc05c561a4, type: 3}
   parabensTexto: {fileID: 1182104940}
   nomeCenaSalaEspera: SalaEspera
 --- !u!4 &450385355
@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 879759794}
   - component: {fileID: 879759795}
   m_Layer: 0
-  m_Name: GameController
+  m_Name: GameControllerpersonagens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -790,6 +790,56 @@ RectTransform:
   m_AnchoredPosition: {x: -325.5, y: 164.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1225408780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225408782}
+  - component: {fileID: 1225408781}
+  m_Layer: 0
+  m_Name: GameControllerHipopotamo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1225408781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225408780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42454d6d4d7029448aae416df9fc6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barraSaude: {fileID: 151081913}
+  personagem: {fileID: 1685245003}
+  triste: {fileID: 2889580193396966139, guid: ff6ed51b815d6ec448a53e95c033eaea, type: 3}
+  feliz: {fileID: -1108038235246377309, guid: bb18f0e194ee006419814682f9620548, type: 3}
+  parabensTexto: {fileID: 1182104940}
+  nomeCenaSalaEspera: SalaEspera
+--- !u!4 &1225408782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225408780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.22513653, y: -0.4027675, z: 0.019339204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1418117287
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,4 +1407,5 @@ SceneRoots:
   - {fileID: 879759794}
   - {fileID: 1097833915}
   - {fileID: 450385355}
+  - {fileID: 1225408782}
   - {fileID: 975810502}
