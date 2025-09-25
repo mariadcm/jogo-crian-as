@@ -388,12 +388,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450385353}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22513653, y: -0.4027675, z: 0.019339204}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1225408782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &879759792
 GameObject:
@@ -598,8 +598,8 @@ Transform:
   m_GameObject: {fileID: 975810500}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0619, y: 0.0396, z: 0}
-  m_LocalScale: {x: 0.6270746, y: 0.4210803, z: 0.76135}
+  m_LocalPosition: {x: 0.0024, y: 0.043, z: 0}
+  m_LocalScale: {x: 0.6161147, y: 0.42134705, z: 0.76135}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   - component: {fileID: 1097833915}
   - component: {fileID: 1097833914}
   m_Layer: 0
-  m_Name: GameController
+  m_Name: GameControllerUrso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -821,7 +821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barraSaude: {fileID: 151081913}
   personagem: {fileID: 1685245003}
-  triste: {fileID: 2889580193396966139, guid: ff6ed51b815d6ec448a53e95c033eaea, type: 3}
+  triste: {fileID: -6645446057687564774, guid: 95d40af05ef9ca84bb8d6c44fb982709, type: 3}
   feliz: {fileID: -1108038235246377309, guid: bb18f0e194ee006419814682f9620548, type: 3}
   parabensTexto: {fileID: 1182104940}
   nomeCenaSalaEspera: SalaEspera
@@ -837,7 +837,8 @@ Transform:
   m_LocalPosition: {x: -0.22513653, y: -0.4027675, z: 0.019339204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 450385355}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1418117287
@@ -1406,6 +1407,5 @@ SceneRoots:
   - {fileID: 1418117289}
   - {fileID: 879759794}
   - {fileID: 1097833915}
-  - {fileID: 450385355}
   - {fileID: 1225408782}
   - {fileID: 975810502}
