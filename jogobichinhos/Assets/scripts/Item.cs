@@ -1,37 +1,46 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
-public class Item : MonoBehaviour
+public class ItemUsavel : MonoBehaviour
 {
-    public ControleSaude controle;
-    public float valor = 30;
-    public RectTransform alvoUI;
-    public float duracao = 0.4f;
+    public ControleSaude controle;  // arraste o GameController
+    public float valor = 30f;       // quanto aumenta
+    public bool ehInjecao = false;  // marque true para a seringa
+    public bool precisaInjecao = false; // true para band-aid
+
     bool usado = false;
 
-    public void UsarItem()
+    public void Usar()
     {
         if (usado) return;
-        usado = true;
-        StartCoroutine(MoverECurar());
+        if (precisaInjecao && (controle == null || controle.injecaoDada == false))
+        {
+            Debug.Log("Use a injeção primeiro.");
+            return;
+        }
+        StartCoroutine(DoUso());
     }
 
-    IEnumerator MoverECurar()
+    IEnumerator DoUso()
     {
-        if (alvoUI != null)
+        usado = true;
+        // pequeno efeito visual (pulsar)
+        Vector3 orig = transform.localScale;
+        float t=0f, d=0.3f;
+        while (t < d)
         {
-            Vector2 inicio = transform.GetComponent<RectTransform>().anchoredPosition;
-            Vector2 fim = alvoUI.anchoredPosition;
-            float t = 0;
-            while (t < 1)
-            {
-                t += Time.deltaTime / duracao;
-                transform.GetComponent<RectTransform>().anchoredPosition = Vector2.Lerp(inicio, fim, t);
-                yield return null;
-            }
+            t += Time.deltaTime;
+            transform.localScale = orig * (1f + 0.12f * Mathf.Sin((t/d)*Mathf.PI));
+            yield return null;
         }
-        controle.AumentarSaude(valor);
+        transform.localScale = orig;
+
+        if (ehInjecao && controle != null) controle.injecaoDada = true;
+        if (controle != null) controle.Aumentar(valor);
+
         gameObject.SetActive(false);
     }
 }
+
+
+

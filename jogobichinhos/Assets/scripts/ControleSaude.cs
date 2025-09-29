@@ -37,4 +37,3 @@ public class ControleSaude : MonoBehaviour
     }
 
     void Voltar() => SceneManager.LoadScene(nomeCenaSalaEspera);
-}
