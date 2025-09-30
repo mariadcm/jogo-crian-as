@@ -10,6 +10,8 @@ public class ControleSaude : MonoBehaviour
     public GameObject parabensTexto;
     public string nomeCenaSalaEspera = "SalaEspera";
 
+    [HideInInspector] public bool injecaoDada = false; // << ADICIONADO
+
     float saude = 0;
 
     void Start()
@@ -37,3 +39,4 @@ public class ControleSaude : MonoBehaviour
     }
 
     void Voltar() => SceneManager.LoadScene(nomeCenaSalaEspera);
+}
