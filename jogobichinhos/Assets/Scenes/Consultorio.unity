@@ -357,7 +357,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -461,6 +461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450385355}
   - component: {fileID: 450385356}
+  - component: {fileID: 450385357}
   m_Layer: 0
   m_Name: GameControllerGirafa
   m_TagString: Untagged
@@ -502,6 +503,19 @@ MonoBehaviour:
   parabensTexto: {fileID: 1182104940}
   nomeCenaSalaEspera: SalaEspera
   injecaoDada: 0
+--- !u!114 &450385357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450385353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73e3ef1f6b438749a8a2e8738ddd480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controle: {fileID: 450385356}
 --- !u!1 &777985601
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,6 +527,7 @@ GameObject:
   - component: {fileID: 777985602}
   - component: {fileID: 777985604}
   - component: {fileID: 777985603}
+  - component: {fileID: 777985605}
   m_Layer: 5
   m_Name: Termometro
   m_TagString: Untagged
@@ -529,14 +544,14 @@ RectTransform:
   m_GameObject: {fileID: 777985601}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.81439, y: 0.81439, z: 0.81439}
+  m_LocalScale: {x: 0.44810978, y: 0.44810978, z: 0.44810978}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 102694345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -284, y: -72}
+  m_AnchoredPosition: {x: -297, y: -65}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &777985603
@@ -577,6 +592,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777985601}
   m_CullTransparentMesh: 1
+--- !u!114 &777985605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777985601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0fddefa1da038408d030e78ebb10b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 
+  valor: 30
 --- !u!1 &879759792
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,8 +825,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1097833915}
   - component: {fileID: 1097833916}
+  - component: {fileID: 1097833917}
   m_Layer: 0
-  m_Name: GameController
+  m_Name: GameControllerUrso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -837,6 +867,19 @@ MonoBehaviour:
   parabensTexto: {fileID: 0}
   nomeCenaSalaEspera: SalaEspera
   injecaoDada: 0
+--- !u!114 &1097833917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097833913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73e3ef1f6b438749a8a2e8738ddd480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controle: {fileID: 1097833916}
 --- !u!1 &1167960946
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,6 +1058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1225408782}
   - component: {fileID: 1225408783}
+  - component: {fileID: 1225408784}
   m_Layer: 0
   m_Name: GameControllerHipopotamo
   m_TagString: Untagged
@@ -1056,6 +1100,19 @@ MonoBehaviour:
   parabensTexto: {fileID: 1182104940}
   nomeCenaSalaEspera: SalaEspera
   injecaoDada: 0
+--- !u!114 &1225408784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225408780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73e3ef1f6b438749a8a2e8738ddd480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controle: {fileID: 1225408783}
 --- !u!1 &1348816019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,6 +1361,7 @@ GameObject:
   - component: {fileID: 1399468362}
   - component: {fileID: 1399468364}
   - component: {fileID: 1399468363}
+  - component: {fileID: 1399468365}
   m_Layer: 5
   m_Name: Injecao
   m_TagString: Untagged
@@ -1319,15 +1377,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399468361}
   m_LocalRotation: {x: -0.009916879, y: -0, z: -0, w: 0.9999509}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6555389, y: 0.6555389, z: 0.6555389}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.4817097, y: 0.4817097, z: 0.4817097}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 102694345}
   m_LocalEulerAnglesHint: {x: -1.136, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -314, y: -62}
+  m_AnchoredPosition: {x: -327.8, y: -61.7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1399468363
@@ -1368,6 +1426,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399468361}
   m_CullTransparentMesh: 1
+--- !u!114 &1399468365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399468361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0fddefa1da038408d030e78ebb10b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 
+  valor: 30
 --- !u!1 &1418117287
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,6 +2005,7 @@ GameObject:
   - component: {fileID: 2062106088}
   - component: {fileID: 2062106090}
   - component: {fileID: 2062106089}
+  - component: {fileID: 2062106091}
   m_Layer: 5
   m_Name: BandAid
   m_TagString: Untagged
@@ -1949,14 +2022,14 @@ RectTransform:
   m_GameObject: {fileID: 2062106087}
   m_LocalRotation: {x: -0.009916879, y: -0, z: -0, w: 0.9999509}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.33465183, y: 0.33465183, z: 0.33465183}
+  m_LocalScale: {x: 0.213374, y: 0.213374, z: 0.213374}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 102694345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -364, y: -62}
+  m_AnchoredPosition: {x: -366.8, y: -62}
   m_SizeDelta: {x: 201.8138, y: 83.031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2062106089
@@ -1997,6 +2070,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062106087}
   m_CullTransparentMesh: 1
+--- !u!114 &2062106091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062106087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0fddefa1da038408d030e78ebb10b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 
+  valor: 30
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
