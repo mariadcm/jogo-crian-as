@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:jogobichinhos/Assets/equipamentos medicos/bandeide_infantil-removebg-preview.png.meta
-guid: fe8e10aef74e3cf46abb6a7a130d69f5
+guid: 6c1e27671cd1fce46ad263892e4afcc3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1230634236077445326
-    second: bandeide_infantil-removebg-preview_0
-========
-guid: 66cf7f9f42da8fa4f849799ec14077e1
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6034010976262226023
-    second: mrsa_jogo-removebg-preview_0
->>>>>>>> 037348abbcc60418b978a8cc7397d2eb7aa8f207:jogobichinhos/Assets/imagens/mrsa_jogo-removebg-preview.png.meta
+      213: 8731016316313585889
+    second: injeccao-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,27 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:jogobichinhos/Assets/equipamentos medicos/bandeide_infantil-removebg-preview.png.meta
-      name: bandeide_infantil-removebg-preview_0
+      name: injeccao-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 166
-        width: 432
-        height: 149
-========
-      name: mrsa_jogo-removebg-preview_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 523
-        height: 477
->>>>>>>> 037348abbcc60418b978a8cc7397d2eb7aa8f207:jogobichinhos/Assets/imagens/mrsa_jogo-removebg-preview.png.meta
+        x: 25
+        y: 24
+        width: 450
+        height: 453
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,13 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:jogobichinhos/Assets/equipamentos medicos/bandeide_infantil-removebg-preview.png.meta
-      spriteID: 23f6b26bea8ebeee0800000000000000
-      internalID: -1230634236077445326
-========
-      spriteID: 7600bea630d1db350800000000000000
-      internalID: 6034010976262226023
->>>>>>>> 037348abbcc60418b978a8cc7397d2eb7aa8f207:jogobichinhos/Assets/imagens/mrsa_jogo-removebg-preview.png.meta
+      spriteID: 1e8c20ea41dca2970800000000000000
+      internalID: 8731016316313585889
       vertices: []
       indices: 
       edges: []
@@ -158,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      injeccao-removebg-preview_0: 8731016316313585889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
