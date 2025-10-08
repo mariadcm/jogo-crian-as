@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 6db8c2716005a2d489118049b2c27b63, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -864,7 +864,7 @@ MonoBehaviour:
   personagem: {fileID: 1685245003}
   triste: {fileID: -7716157746369578016, guid: 1ec4c7e3f26ab054a90fe08380a4c5b5, type: 3}
   feliz: {fileID: 4602719941086853991, guid: dbe358d433373864fad9a29918d814f4, type: 3}
-  parabensTexto: {fileID: 0}
+  parabensTexto: {fileID: 1182104940}
   nomeCenaSalaEspera: SalaEspera
   injecaoDada: 0
 --- !u!114 &1097833917
