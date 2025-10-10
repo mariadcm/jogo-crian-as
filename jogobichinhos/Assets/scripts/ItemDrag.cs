@@ -1,23 +1,49 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ItemDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+[RequireComponent(typeof(RectTransform))]
+public class ItemDragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    Vector3 inicio;
+    public Canvas canvas;              // arraste o Canvas no Inspector
+    RectTransform rt;
+    CanvasGroup cg;
+    Vector2 inicioAnchored;
+
+    void Awake()
+    {
+        rt = GetComponent<RectTransform>();
+        cg = gameObject.GetComponent<CanvasGroup>();
+        if (cg == null) cg = gameObject.AddComponent<CanvasGroup>();
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        inicio = transform.position; // guarda a posição inicial
+        inicioAnchored = rt.anchoredPosition;
+        cg.blocksRaycasts = false; // permite que o drop receba o evento
+        Debug.Log(name + " BeginDrag");
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        transform.position = Input.mousePosition; // segue o mouse
+        Vector2 pos;
+        RectTransform canvasRect = canvas.transform as RectTransform;
+        // converte posição de tela para ancorada dentro do Canvas
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, eventData.position, canvas.worldCamera, out pos);
+        rt.anchoredPosition = pos;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        // se não soltar em cima do bichinho, volta pro lugar
-        transform.position = inicio;
+        cg.blocksRaycasts = true;
+        // Se não soltar em Drop (pointerEnter null ou sem ItemDropTarget), volta
+        if (eventData.pointerEnter == null || eventData.pointerEnter.GetComponentInParent<ItemDropTarget>() == null)
+        {
+            rt.anchoredPosition = inicioAnchored;
+            Debug.Log(name + " voltou para o inicio");
+        }
+        else
+        {
+            Debug.Log(name + " dropado em " + eventData.pointerEnter.name);
+        }
     }
 }

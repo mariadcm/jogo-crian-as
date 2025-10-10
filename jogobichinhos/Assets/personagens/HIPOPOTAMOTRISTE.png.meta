@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:jogobichinhos/Assets/personagens/triste.png.meta
-guid: 2f73efe0fd3b62746882d09b3538660a
+guid: 40eea32c2fd750c4b90ba90090e5a2ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6645446057687564774
-    second: HIPOPOTAMOTRISTE-removebg-preview (1)_0
-========
-guid: 63ed894aa5dc97148ac6970b8ce7f857
-TextureImporter:
-  internalIDToNameTable:
+      213: 3708043819505014494
+    second: HIPOPOTAMOTRISTE_0
   - first:
-      213: -340238701317278877
-    second: termometrp-removebg-preview (1)_0
->>>>>>>> 037348abbcc60418b978a8cc7397d2eb7aa8f207:jogobichinhos/Assets/itens/termometrp-removebg-preview (1).png.meta
+      213: 715045205077624508
+    second: HIPOPOTAMOTRISTE_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:jogobichinhos/Assets/personagens/triste.png.meta
-      name: HIPOPOTAMOTRISTE-removebg-preview (1)_0
-========
-      name: termometrp-removebg-preview (1)_0
->>>>>>>> 037348abbcc60418b978a8cc7397d2eb7aa8f207:jogobichinhos/Assets/itens/termometrp-removebg-preview (1).png.meta
+      name: HIPOPOTAMOTRISTE_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 417
-        height: 598
+        x: 450
+        y: 1050
+        width: 1631
+        height: 2056
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,13 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:jogobichinhos/Assets/personagens/triste.png.meta
-      spriteID: a1e33850502a6c3a0800000000000000
-      internalID: -6645446057687564774
-========
-      spriteID: 363b42d24ba374bf0800000000000000
-      internalID: -340238701317278877
->>>>>>>> 037348abbcc60418b978a8cc7397d2eb7aa8f207:jogobichinhos/Assets/itens/termometrp-removebg-preview (1).png.meta
+      spriteID: ed6dd21353e957330800000000000000
+      internalID: 3708043819505014494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HIPOPOTAMOTRISTE_1
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1093
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb68ff653d95ce900800000000000000
+      internalID: 715045205077624508
       vertices: []
       indices: 
       edges: []
@@ -152,8 +159,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      HIPOPOTAMOTRISTE-removebg-preview (1)_0: -6645446057687564774
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

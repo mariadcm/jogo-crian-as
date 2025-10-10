@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:jogobichinhos/Assets/equipamentos medicos/bandeide_infantil-removebg-preview.png.meta
-guid: fe8e10aef74e3cf46abb6a7a130d69f5
+guid: be54397455173f74f9d81f7724abef67
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1230634236077445326
-    second: bandeide_infantil-removebg-preview_0
-========
-guid: 66cf7f9f42da8fa4f849799ec14077e1
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6034010976262226023
-    second: mrsa_jogo-removebg-preview_0
->>>>>>>> 037348abbcc60418b978a8cc7397d2eb7aa8f207:jogobichinhos/Assets/imagens/mrsa_jogo-removebg-preview.png.meta
+      213: 1016345180502692301
+    second: giraffa_certa_triste-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,23 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:jogobichinhos/Assets/equipamentos medicos/bandeide_infantil-removebg-preview.png.meta
-      name: bandeide_infantil-removebg-preview_0
+      name: giraffa_certa_triste-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 166
-        width: 432
-        height: 149
-========
-      name: mrsa_jogo-removebg-preview_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 523
-        height: 477
->>>>>>>> 037348abbcc60418b978a8cc7397d2eb7aa8f207:jogobichinhos/Assets/imagens/mrsa_jogo-removebg-preview.png.meta
+        x: 85
+        y: 134
+        width: 124
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,13 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:jogobichinhos/Assets/equipamentos medicos/bandeide_infantil-removebg-preview.png.meta
-      spriteID: 23f6b26bea8ebeee0800000000000000
-      internalID: -1230634236077445326
-========
-      spriteID: 7600bea630d1db350800000000000000
-      internalID: 6034010976262226023
->>>>>>>> 037348abbcc60418b978a8cc7397d2eb7aa8f207:jogobichinhos/Assets/imagens/mrsa_jogo-removebg-preview.png.meta
+      spriteID: dc11b0d8e88ca1e00800000000000000
+      internalID: 1016345180502692301
       vertices: []
       indices: 
       edges: []
