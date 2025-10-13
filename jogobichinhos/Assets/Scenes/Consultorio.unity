@@ -856,7 +856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Urso: {fileID: 849568688}
-  Hipopotamo: {fileID: 0}
+  Hipopotamo: {fileID: 1407834657}
   Girafa: {fileID: 1751161440}
 --- !u!1 &958306939
 GameObject:
@@ -1301,7 +1301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barraSaude: {fileID: 151081913}
   personagem: {fileID: 1685245003}
-  triste: {fileID: 3343497267602120830, guid: 162c6140569575944be190baf84359a4, type: 3}
+  triste: {fileID: 3708043819505014494, guid: 40eea32c2fd750c4b90ba90090e5a2ea, type: 3}
   feliz: {fileID: -1108038235246377309, guid: bb18f0e194ee006419814682f9620548, type: 3}
   parabensTexto: {fileID: 1182104940}
   nomeCenaSalaEspera: SalaEspera
@@ -1585,12 +1585,12 @@ GameObject:
   - component: {fileID: 1407834659}
   - component: {fileID: 1407834658}
   m_Layer: 0
-  m_Name: HIPOPOTAMOTRISTE_0
+  m_Name: Hipopotamotriste
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1407834658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,7 +1647,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 3708043819505014494, guid: 40eea32c2fd750c4b90ba90090e5a2ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

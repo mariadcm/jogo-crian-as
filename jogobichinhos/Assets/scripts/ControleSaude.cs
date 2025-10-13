@@ -5,12 +5,10 @@ using UnityEngine.SceneManagement;
 public class ControleSaude : MonoBehaviour
 {
     public Slider barraSaude;
-    public Image personagem;
+    public SpriteRenderer personagem; // <- alterado para SpriteRenderer
     public Sprite triste, feliz;
     public GameObject parabensTexto;
     public string nomeCenaSalaEspera = "SalaEspera";
-
-    [HideInInspector] public bool injecaoDada = false; // << ADICIONADO
 
     float saude = 0;
 
@@ -38,5 +36,8 @@ public class ControleSaude : MonoBehaviour
         Invoke(nameof(Voltar), 2f);
     }
 
-    void Voltar() => SceneManager.LoadScene(nomeCenaSalaEspera);
+    void Voltar()
+    {
+        SceneManager.LoadScene(nomeCenaSalaEspera);
+    }
 }

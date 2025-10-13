@@ -1,29 +1,42 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class ItemDropTarget : MonoBehaviour, IDropHandler
+public class ControleSaude : MonoBehaviour
 {
-    public ControleSaude controle; // arraste o GameController do bichinho aqui
+    public Slider barraSaude;
+    public Image personagem;
+    public Sprite triste, feliz;
+    public GameObject parabensTexto;
+    public string nomeCenaSalaEspera = "SalaEspera";
 
-    public void OnDrop(PointerEventData eventData)
+    [HideInInspector] public bool injecaoDada = false; // << ADICIONADO
+
+    float saude = 0;
+
+    void Start()
     {
-        GameObject dragged = eventData.pointerDrag;
-        if (dragged == null) return;
-
-        ItemData data = dragged.GetComponent<ItemData>();
-        if (data == null) return;
-
-        // regras
-        if (data.tipo == "BandAid" && controle.injecaoDada == false)
-        {
-            Debug.Log("Use a injeção primeiro!");
-            return;
-        }
-        if (data.tipo == "Injecao") controle.injecaoDada = true;
-
-        controle.AumentarSaude(data.valor);
-        dragged.SetActive(false);
-        Debug.Log("Usou " + data.tipo + " -> +" + data.valor);
+        barraSaude.value = 0;
+        personagem.sprite = triste;
+        parabensTexto.SetActive(false);
     }
-}
 
+    public void AumentarSaude(float valor)
+    {
+        saude += valor;
+        if (saude > 100) saude = 100;
+        barraSaude.value = saude / 100f;
+
+        if (saude >= 100)
+            Recuperado();
+    }
+
+    void Recuperado()
+    {
+        personagem.sprite = feliz;
+        parabensTexto.SetActive(true);
+        Invoke(nameof(Voltar), 2f);
+    }
+
+    void Voltar() => SceneManager.LoadScene(nomeCenaSalaEspera);
+}
