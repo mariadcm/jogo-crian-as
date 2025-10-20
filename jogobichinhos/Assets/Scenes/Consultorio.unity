@@ -1595,6 +1595,9 @@ GameObject:
   - component: {fileID: 1418117289}
   - component: {fileID: 1418117288}
   - component: {fileID: 1418117290}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Hipopotamotriste
@@ -1702,6 +1705,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controle: {fileID: 1097833916}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1420431115
 GameObject:
@@ -1933,6 +1939,9 @@ GameObject:
   - component: {fileID: 1824189781}
   - component: {fileID: 1824189780}
   - component: {fileID: 1824189782}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_Layer: 0
   m_Name: girafatriste
@@ -2219,6 +2228,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controle: {fileID: 450385356}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &2062106087
 GameObject:
