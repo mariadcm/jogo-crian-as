@@ -1,42 +1,17 @@
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
-public class ControleSaude : MonoBehaviour
+public class ItemDropTarget : MonoBehaviour, IDropHandler
 {
-    public Slider barraSaude;
-    public Image personagem;
-    public Sprite triste, feliz;
-    public GameObject parabensTexto;
-    public string nomeCenaSalaEspera = "SalaEspera";
+    public ControleSaude controle;
 
-    [HideInInspector] public bool injecaoDada = false; // << ADICIONADO
-
-    float saude = 0;
-
-    void Start()
+    public void OnDrop(PointerEventData eventData)
     {
-        barraSaude.value = 0;
-        personagem.sprite = triste;
-        parabensTexto.SetActive(false);
+        var item = eventData.pointerDrag?.GetComponent<ItemData>();
+        if (item == null) return;
+
+        controle.AumentarSaude(item.valor);
+        Destroy(item.gameObject);
     }
-
-    public void AumentarSaude(float valor)
-    {
-        saude += valor;
-        if (saude > 100) saude = 100;
-        barraSaude.value = saude / 100f;
-
-        if (saude >= 100)
-            Recuperado();
-    }
-
-    void Recuperado()
-    {
-        personagem.sprite = feliz;
-        parabensTexto.SetActive(true);
-        Invoke(nameof(Voltar), 2f);
-    }
-
-    void Voltar() => SceneManager.LoadScene(nomeCenaSalaEspera);
 }
+
