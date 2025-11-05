@@ -15,26 +15,107 @@ public class ControleSaude : MonoBehaviour
     public Sprite triste;
     public Sprite feliz;
 
-    [Header("Efeito de Confete 🎉")]
-    public GameObject confettiPrefab; // arraste o prefab Confetti aqui no Inspector
+    [Header("Balões de fala")]
+    public GameObject balaoInjecao;
+    public GameObject balaoCurativo;
+    public GameObject balaoTermometro;
 
     float saude = 0f;
-    [HideInInspector] public bool injecaoDada = false;
+    bool injecaoDada = false;
+    bool curativoDado = false;
+    bool termometroUsado = false;
 
     void Start()
     {
         saude = 0;
-        barraSaude.value = 0;
+        if (barraSaude != null) barraSaude.value = 0;
         if (personagemImage != null) personagemImage.sprite = triste;
         if (personagemSprite != null) personagemSprite.sprite = triste;
-        parabensTexto.SetActive(false);
+        if (parabensTexto != null) parabensTexto.SetActive(false);
+
+        // mostra o primeiro balão (injecao) no início
+        MostrarBalaoInjecao();
+        Debug.Log("Start: mostra balao injecao");
+    }
+
+    void EsconderTodosBaloes()
+    {
+        if (balaoInjecao != null) balaoInjecao.SetActive(false);
+        if (balaoCurativo != null) balaoCurativo.SetActive(false);
+        if (balaoTermometro != null) balaoTermometro.SetActive(false);
+    }
+
+    public void MostrarBalaoInjecao()
+    {
+        EsconderTodosBaloes();
+        if (balaoInjecao != null) balaoInjecao.SetActive(true);
+        Debug.Log("MostrarBalaoInjecao()");
+    }
+
+    public void MostrarBalaoCurativo()
+    {
+        EsconderTodosBaloes();
+        if (balaoCurativo != null) balaoCurativo.SetActive(true);
+        Debug.Log("MostrarBalaoCurativo()");
+    }
+
+    public void MostrarBalaoTermometro()
+    {
+        EsconderTodosBaloes();
+        if (balaoTermometro != null) balaoTermometro.SetActive(true);
+        Debug.Log("MostrarBalaoTermometro()");
+    }
+
+    // --- chamadas pelo ItemDropTarget ---
+    public void AplicarInjecao()
+    {
+        Debug.Log("AplicarInjecao() called. injecaoDada=" + injecaoDada);
+        if (injecaoDada) return; // só pode uma vez
+
+        injecaoDada = true;
+        // quando aplicar, escondemos o balão de instrução da injeção imediatamente
+        if (balaoInjecao != null) balaoInjecao.SetActive(false);
+
+        AumentarSaude(30);
+        // após aplicar, mostrar instrução do curativo
+        MostrarBalaoCurativo();
+        Debug.Log("Injeção aplicada → mostra balão curativo");
+    }
+
+    public void AplicarCurativo()
+    {
+        Debug.Log("AplicarCurativo() called. curativoDado=" + curativoDado + " injecaoDada=" + injecaoDada);
+        if (!injecaoDada || curativoDado) return;
+
+        curativoDado = true;
+        if (balaoCurativo != null) balaoCurativo.SetActive(false);
+
+        AumentarSaude(30);
+        // mostra instrução do termômetro
+        MostrarBalaoTermometro();
+        Debug.Log("Curativo aplicado → mostra balão termômetro");
+    }
+
+    public void UsarTermometro()
+    {
+        Debug.Log("UsarTermometro() called. termometroUsado=" + termometroUsado + " curativoDado=" + curativoDado);
+        if (!curativoDado || termometroUsado) return;
+
+        termometroUsado = true;
+        if (balaoTermometro != null) balaoTermometro.SetActive(false);
+
+        AumentarSaude(40); // completa a saúde
+        Debug.Log("Termometro usado → saúde atual = " + saude);
     }
 
     public void AumentarSaude(float valor)
     {
+        Debug.Log("AumentarSaude called. valor=" + valor + " antes saude=" + saude);
         saude += valor;
         if (saude > 100) saude = 100;
-        barraSaude.value = saude / 100f;
+
+        if (barraSaude != null) barraSaude.value = saude / 100f;
+        Debug.Log("Depois: saude=" + saude + " barra=" + (barraSaude != null ? barraSaude.value.ToString() : "no slider"));
 
         if (saude >= 100)
             Recuperado();
@@ -42,18 +123,13 @@ public class ControleSaude : MonoBehaviour
 
     void Recuperado()
     {
-        // Muda o sprite para o bichinho feliz
+        Debug.Log("Recuperado() chamado");
         if (personagemImage != null) personagemImage.sprite = feliz;
         if (personagemSprite != null) personagemSprite.sprite = feliz;
 
-        // Mostra o texto "Parabéns!"
-        parabensTexto.SetActive(true);
+        if (parabensTexto != null) parabensTexto.SetActive(true);
+        EsconderTodosBaloes();
 
-        // Cria partículas de confete acima do bichinho 🎉
-        if (confettiPrefab != null)
-            Instantiate(confettiPrefab, transform.position + Vector3.up * 1.5f, Quaternion.identity);
-
-        // Volta para a sala de espera depois de 2 segundos
         Invoke(nameof(Voltar), 2f);
     }
 
@@ -62,3 +138,4 @@ public class ControleSaude : MonoBehaviour
         SceneManager.LoadScene(nomeCenaSalaEspera);
     }
 }
+
