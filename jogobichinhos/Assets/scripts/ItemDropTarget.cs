@@ -3,39 +3,29 @@ using UnityEngine.EventSystems;
 
 public class ItemDropTarget : MonoBehaviour, IDropHandler
 {
-    public ControleSaude controle; // arraste o objeto que tem ControleSaude aqui
+    public ControleSaude controle;
 
     public void OnDrop(PointerEventData eventData)
     {
         var item = eventData.pointerDrag?.GetComponent<ItemData>();
         if (item == null) return;
 
-        Debug.Log("ItemDropTarget: drop detectado item.tipo=" + item.tipo + " valor=" + item.valor);
+        Debug.Log("Item solto: " + item.tipo);
 
-        if (controle == null)
+        controle.AumentarSaude(item.valor);
+
+        // Chama o método certo no ControleSaude, dependendo do tipo
+        if (item.tipo.ToLower() == "injecao")
         {
-            Debug.LogError("ItemDropTarget: controle (ControleSaude) NÃO está atribuído no Inspector!");
-            Destroy(item.gameObject);
-            return;
+            controle.AplicarInjecao();
         }
-
-        switch (item.tipo.ToLower())
+        else if (item.tipo.ToLower() == "curativo")
         {
-            case "injecao":
-                controle.AplicarInjecao();
-                break;
-
-            case "curativo":
-                controle.AplicarCurativo();
-                break;
-
-            case "termometro":
-                controle.UsarTermometro();
-                break;
-
-            default:
-                controle.AumentarSaude(item.valor);
-                break;
+            controle.AplicarCurativo();
+        }
+        else if (item.tipo.ToLower() == "termometro")
+        {
+            controle.UsarTermometro();
         }
 
         Destroy(item.gameObject);

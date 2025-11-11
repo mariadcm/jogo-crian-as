@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      balao de fala_0: -4800089287488980712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

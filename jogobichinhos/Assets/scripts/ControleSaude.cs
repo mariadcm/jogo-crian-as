@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro; // ✅ Importa o TextMeshPro
 
 public class ControleSaude : MonoBehaviour
 {
@@ -20,22 +21,27 @@ public class ControleSaude : MonoBehaviour
     public GameObject balaoCurativo;
     public GameObject balaoTermometro;
 
+    [Header("Textos dos balões (TMP)")]
+    public TMP_Text textoInjecao;
+    public TMP_Text textoCurativo;
+    public TMP_Text textoTermometro;
+
     float saude = 0f;
-    bool injecaoDada = false;
-    bool curativoDado = false;
-    bool termometroUsado = false;
+    [HideInInspector] public bool injecaoDada = false;
+    [HideInInspector] public bool curativoDado = false;
+    [HideInInspector] public bool termometroUsado = false;
 
     void Start()
     {
         saude = 0;
-        if (barraSaude != null) barraSaude.value = 0;
+        barraSaude.value = 0;
+
         if (personagemImage != null) personagemImage.sprite = triste;
         if (personagemSprite != null) personagemSprite.sprite = triste;
-        if (parabensTexto != null) parabensTexto.SetActive(false);
+        parabensTexto.SetActive(false);
 
-        // mostra o primeiro balão (injecao) no início
-        MostrarBalaoInjecao();
-        Debug.Log("Start: mostra balao injecao");
+        EsconderTodosBaloes();
+        MostrarBalaoInjecao(); // começa com o primeiro balão
     }
 
     void EsconderTodosBaloes()
@@ -45,89 +51,78 @@ public class ControleSaude : MonoBehaviour
         if (balaoTermometro != null) balaoTermometro.SetActive(false);
     }
 
-    public void MostrarBalaoInjecao()
-    {
-        EsconderTodosBaloes();
-        if (balaoInjecao != null) balaoInjecao.SetActive(true);
-        Debug.Log("MostrarBalaoInjecao()");
-    }
-
-    public void MostrarBalaoCurativo()
-    {
-        EsconderTodosBaloes();
-        if (balaoCurativo != null) balaoCurativo.SetActive(true);
-        Debug.Log("MostrarBalaoCurativo()");
-    }
-
-    public void MostrarBalaoTermometro()
-    {
-        EsconderTodosBaloes();
-        if (balaoTermometro != null) balaoTermometro.SetActive(true);
-        Debug.Log("MostrarBalaoTermometro()");
-    }
-
-    // --- chamadas pelo ItemDropTarget ---
     public void AplicarInjecao()
     {
-        Debug.Log("AplicarInjecao() called. injecaoDada=" + injecaoDada);
-        if (injecaoDada) return; // só pode uma vez
-
+        if (injecaoDada) return;
         injecaoDada = true;
-        // quando aplicar, escondemos o balão de instrução da injeção imediatamente
-        if (balaoInjecao != null) balaoInjecao.SetActive(false);
-
-        AumentarSaude(30);
-        // após aplicar, mostrar instrução do curativo
+        AumentarSaude(40);
+        EsconderTodosBaloes();
         MostrarBalaoCurativo();
-        Debug.Log("Injeção aplicada → mostra balão curativo");
     }
 
     public void AplicarCurativo()
     {
-        Debug.Log("AplicarCurativo() called. curativoDado=" + curativoDado + " injecaoDada=" + injecaoDada);
         if (!injecaoDada || curativoDado) return;
-
         curativoDado = true;
-        if (balaoCurativo != null) balaoCurativo.SetActive(false);
-
         AumentarSaude(30);
-        // mostra instrução do termômetro
+        EsconderTodosBaloes();
         MostrarBalaoTermometro();
-        Debug.Log("Curativo aplicado → mostra balão termômetro");
     }
 
     public void UsarTermometro()
     {
-        Debug.Log("UsarTermometro() called. termometroUsado=" + termometroUsado + " curativoDado=" + curativoDado);
         if (!curativoDado || termometroUsado) return;
-
         termometroUsado = true;
-        if (balaoTermometro != null) balaoTermometro.SetActive(false);
-
-        AumentarSaude(40); // completa a saúde
-        Debug.Log("Termometro usado → saúde atual = " + saude);
+        AumentarSaude(30);
+        EsconderTodosBaloes();
     }
 
     public void AumentarSaude(float valor)
     {
-        Debug.Log("AumentarSaude called. valor=" + valor + " antes saude=" + saude);
         saude += valor;
         if (saude > 100) saude = 100;
-
-        if (barraSaude != null) barraSaude.value = saude / 100f;
-        Debug.Log("Depois: saude=" + saude + " barra=" + (barraSaude != null ? barraSaude.value.ToString() : "no slider"));
+        barraSaude.value = saude / 100f;
 
         if (saude >= 100)
             Recuperado();
     }
 
+    void MostrarBalaoInjecao()
+    {
+        if (balaoInjecao != null)
+        {
+            balaoInjecao.SetActive(true);
+            if (textoInjecao != null)
+                textoInjecao.text = "Seu amiguinho precisa de uma injeção!";
+        }
+    }
+
+    void MostrarBalaoCurativo()
+    {
+        if (balaoCurativo != null)
+        {
+            balaoCurativo.SetActive(true);
+            if (textoCurativo != null)
+                textoCurativo.text = "Agora coloque o curativo!";
+        }
+    }
+
+    void MostrarBalaoTermometro()
+    {
+        if (balaoTermometro != null)
+        {
+            balaoTermometro.SetActive(true);
+            if (textoTermometro != null)
+                textoTermometro.text = "Vamos medir a temperatura!";
+        }
+    }
+
     void Recuperado()
     {
-        Debug.Log("Recuperado() chamado");
         if (personagemImage != null) personagemImage.sprite = feliz;
         if (personagemSprite != null) personagemSprite.sprite = feliz;
 
-        if (parabensTexto != null) parabensTexto.SetActive(true);
+        parabensTexto.SetActive(true);
         EsconderTodosBaloes();
 
         Invoke(nameof(Voltar), 2f);
@@ -139,3 +134,4 @@ public class ControleSaude : MonoBehaviour
     }
 }
 
+      
