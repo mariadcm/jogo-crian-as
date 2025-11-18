@@ -504,9 +504,9 @@ MonoBehaviour:
   parabensTexto: {fileID: 1182104940}
   nomeCenaSalaEspera: SalaEspera
   personagemImage: {fileID: 0}
-  personagemSprite: {fileID: 0}
-  triste: {fileID: 0}
-  feliz: {fileID: 0}
+  personagemSprite: {fileID: 1751161442}
+  triste: {fileID: 1016345180502692301, guid: be54397455173f74f9d81f7724abef67, type: 3}
+  feliz: {fileID: 4054039739660938499, guid: 74639f777be96ce4d90781fc05c561a4, type: 3}
   balaoInjecao: {fileID: 776777419}
   balaoCurativo: {fileID: 1633654757}
   balaoTermometro: {fileID: 1304666606}
@@ -1321,15 +1321,15 @@ MonoBehaviour:
   parabensTexto: {fileID: 1182104940}
   nomeCenaSalaEspera: SalaEspera
   personagemImage: {fileID: 0}
-  personagemSprite: {fileID: 0}
-  triste: {fileID: 0}
-  feliz: {fileID: 0}
+  personagemSprite: {fileID: 849568691}
+  triste: {fileID: -7716157746369578016, guid: 1ec4c7e3f26ab054a90fe08380a4c5b5, type: 3}
+  feliz: {fileID: 4602719941086853991, guid: dbe358d433373864fad9a29918d814f4, type: 3}
   balaoInjecao: {fileID: 776777419}
   balaoCurativo: {fileID: 1633654757}
   balaoTermometro: {fileID: 1304666606}
-  textoInjecao: {fileID: 0}
-  textoCurativo: {fileID: 0}
-  textoTermometro: {fileID: 0}
+  textoInjecao: {fileID: 2127604784}
+  textoCurativo: {fileID: 499410215}
+  textoTermometro: {fileID: 1340739417}
   injecaoDada: 0
   curativoDado: 0
   termometroUsado: 0
@@ -1563,15 +1563,15 @@ MonoBehaviour:
   parabensTexto: {fileID: 1182104940}
   nomeCenaSalaEspera: SalaEspera
   personagemImage: {fileID: 0}
-  personagemSprite: {fileID: 0}
-  triste: {fileID: 0}
-  feliz: {fileID: 0}
+  personagemSprite: {fileID: 1407834659}
+  triste: {fileID: 3708043819505014494, guid: 40eea32c2fd750c4b90ba90090e5a2ea, type: 3}
+  feliz: {fileID: -1108038235246377309, guid: bb18f0e194ee006419814682f9620548, type: 3}
   balaoInjecao: {fileID: 776777419}
   balaoCurativo: {fileID: 1633654757}
   balaoTermometro: {fileID: 1304666606}
-  textoInjecao: {fileID: 0}
-  textoCurativo: {fileID: 0}
-  textoTermometro: {fileID: 0}
+  textoInjecao: {fileID: 2127604784}
+  textoCurativo: {fileID: 499410215}
+  textoTermometro: {fileID: 1340739417}
   injecaoDada: 0
   curativoDado: 0
   termometroUsado: 0
@@ -1681,7 +1681,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1340739416
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1721,7 +1721,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "vamos l\xE1, falta pouco para ele se curar!!\n\xC9 a vez do termom\xEAtro"
+  m_text: "vamos l\xE1, falta pouco para ele se curar!!\n\xE9 a vez do termom\xEAtro"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
