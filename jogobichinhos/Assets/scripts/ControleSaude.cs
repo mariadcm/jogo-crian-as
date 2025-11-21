@@ -11,8 +11,8 @@ public class ControleSaude : MonoBehaviour
     public string nomeCenaSalaEspera = "SalaEspera";
 
     [Header("Personagem (um dos dois)")]
-    public Image personagemImage;           // para UI
-    public SpriteRenderer personagemSprite; // para objeto 2D
+    public Image personagemImage;           
+    public SpriteRenderer personagemSprite; 
     public Sprite triste;
     public Sprite feliz;
 
@@ -26,11 +26,13 @@ public class ControleSaude : MonoBehaviour
     public TMP_Text textoCurativo;
     public TMP_Text textoTermometro;
 
+    [Header("Efeitos")]
+    public GameObject confetes;   // <-- ARRASTE AQUI O OBJETO DE CONFETES (UI Image)
+
     // saúde interna
     private float saude = 0f;
     private const float SAUDE_MAX = 100f;
 
-    // flags de etapas (evitam reaplicar)
     [HideInInspector] public bool injecaoDada = false;
     [HideInInspector] public bool curativoDado = false;
     [HideInInspector] public bool termometroUsado = false;
@@ -44,12 +46,14 @@ public class ControleSaude : MonoBehaviour
         if (personagemImage != null) personagemImage.sprite = triste;
         if (personagemSprite != null) personagemSprite.sprite = triste;
 
+        // Confetes começam desativados
+        if (confetes != null) confetes.SetActive(false);
+
         EsconderTodosBaloes();
-        MostrarBalaoInjecao(); // começa pedindo a injeção
+        MostrarBalaoInjecao(); 
         Debug.Log("[ControleSaude] Start. saude=" + saude);
     }
 
-    // --- método público chamado pelo ItemDropTarget ---
     public void AumentarSaude(float valor)
     {
         Debug.Log("[ControleSaude] AumentarSaude chamado. valor=" + valor + " antes saude=" + saude);
@@ -94,17 +98,15 @@ public class ControleSaude : MonoBehaviour
             balaoTermometro.SetActive(true);
             if (textoTermometro != null) textoTermometro.text = " Vamos lá, falta pouco para ele se curar é a vez do termomêtro!";
         }
-        
     }
 
-    // --- métodos chamados pelo ItemDropTarget (NÂO aumentam saude) ---
+    // --- métodos chamados pelo ItemDropTarget ---
     public void AplicarInjecao()
     {
         if (injecaoDada) return;
         injecaoDada = true;
 
         Debug.Log("[ControleSaude] AplicarInjecao() - injecaoDada set true");
-        // mostra próxima instrução
         MostrarBalaoCurativo();
     }
 
@@ -125,7 +127,6 @@ public class ControleSaude : MonoBehaviour
         Debug.Log("[ControleSaude] AplicarTermometro() - termometroUsado set true");
         EsconderTodosBaloes();
 
-        //verifica se saúde já está completa
         if (saude >= SAUDE_MAX)
         {
             Recuperado();
@@ -139,13 +140,25 @@ public class ControleSaude : MonoBehaviour
     void Recuperado()
     {
         Debug.Log("[ControleSaude] Recuperado() chamado. saude=" + saude);
+
         if (personagemImage != null) personagemImage.sprite = feliz;
         if (personagemSprite != null) personagemSprite.sprite = feliz;
 
         if (parabensTexto != null) parabensTexto.SetActive(true);
 
+        // LIGA OS CONFETES
+        if (confetes != null) confetes.SetActive(true);
+
+        // opcional: esconder confetes antes de trocar de cena
+        Invoke(nameof(EsconderConfetes), 1.8f);
+
         // volta à sala depois de 2s
         Invoke(nameof(Voltar), 2f);
+    }
+
+    void EsconderConfetes()
+    {
+        if (confetes != null) confetes.SetActive(false);
     }
 
     void Voltar()

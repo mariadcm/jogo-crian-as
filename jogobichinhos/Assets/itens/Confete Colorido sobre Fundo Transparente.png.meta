@@ -1,0 +1,3217 @@
+fileFormatVersion: 2
+guid: a694ac496740be44699006816fb2b156
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 182318306317096151
+    second: Confete Colorido sobre Fundo Transparente_0
+  - first:
+      213: 6577016003440606474
+    second: Confete Colorido sobre Fundo Transparente_1
+  - first:
+      213: -5132035887277277197
+    second: Confete Colorido sobre Fundo Transparente_2
+  - first:
+      213: 1349089350925198579
+    second: Confete Colorido sobre Fundo Transparente_3
+  - first:
+      213: -2149498406136532866
+    second: Confete Colorido sobre Fundo Transparente_4
+  - first:
+      213: 7371676894970069293
+    second: Confete Colorido sobre Fundo Transparente_5
+  - first:
+      213: -2771066508102701398
+    second: Confete Colorido sobre Fundo Transparente_6
+  - first:
+      213: -1495693328373453913
+    second: Confete Colorido sobre Fundo Transparente_7
+  - first:
+      213: 3461123451214262805
+    second: Confete Colorido sobre Fundo Transparente_8
+  - first:
+      213: -7159758905659352982
+    second: Confete Colorido sobre Fundo Transparente_9
+  - first:
+      213: 2017084666769691701
+    second: Confete Colorido sobre Fundo Transparente_10
+  - first:
+      213: 5884639025540418216
+    second: Confete Colorido sobre Fundo Transparente_11
+  - first:
+      213: 7440683161911404381
+    second: Confete Colorido sobre Fundo Transparente_12
+  - first:
+      213: -7166962327574451659
+    second: Confete Colorido sobre Fundo Transparente_13
+  - first:
+      213: -7435819624611587797
+    second: Confete Colorido sobre Fundo Transparente_14
+  - first:
+      213: 2407818082387038504
+    second: Confete Colorido sobre Fundo Transparente_15
+  - first:
+      213: -4760334383884967417
+    second: Confete Colorido sobre Fundo Transparente_16
+  - first:
+      213: 7552734778290467392
+    second: Confete Colorido sobre Fundo Transparente_17
+  - first:
+      213: -7443358276583134015
+    second: Confete Colorido sobre Fundo Transparente_18
+  - first:
+      213: 180361203092261338
+    second: Confete Colorido sobre Fundo Transparente_19
+  - first:
+      213: 8599775552600581882
+    second: Confete Colorido sobre Fundo Transparente_20
+  - first:
+      213: 3850848146249664019
+    second: Confete Colorido sobre Fundo Transparente_21
+  - first:
+      213: 6377642616522680885
+    second: Confete Colorido sobre Fundo Transparente_22
+  - first:
+      213: -999589853157321999
+    second: Confete Colorido sobre Fundo Transparente_23
+  - first:
+      213: -5518045616859360453
+    second: Confete Colorido sobre Fundo Transparente_24
+  - first:
+      213: 2690795084402088517
+    second: Confete Colorido sobre Fundo Transparente_25
+  - first:
+      213: 1013255297527539625
+    second: Confete Colorido sobre Fundo Transparente_26
+  - first:
+      213: -2896553514933935881
+    second: Confete Colorido sobre Fundo Transparente_27
+  - first:
+      213: 2104660200315520580
+    second: Confete Colorido sobre Fundo Transparente_28
+  - first:
+      213: 5372776930762081222
+    second: Confete Colorido sobre Fundo Transparente_29
+  - first:
+      213: -3081057496534585098
+    second: Confete Colorido sobre Fundo Transparente_30
+  - first:
+      213: 2995090670167878831
+    second: Confete Colorido sobre Fundo Transparente_31
+  - first:
+      213: -6409242575626213403
+    second: Confete Colorido sobre Fundo Transparente_32
+  - first:
+      213: 1926918158998992009
+    second: Confete Colorido sobre Fundo Transparente_33
+  - first:
+      213: 3817862292423893214
+    second: Confete Colorido sobre Fundo Transparente_34
+  - first:
+      213: -5891556991468601379
+    second: Confete Colorido sobre Fundo Transparente_35
+  - first:
+      213: 2580489762035425235
+    second: Confete Colorido sobre Fundo Transparente_36
+  - first:
+      213: 2849602816036518107
+    second: Confete Colorido sobre Fundo Transparente_37
+  - first:
+      213: -7059009331055645503
+    second: Confete Colorido sobre Fundo Transparente_38
+  - first:
+      213: -8683799439262897653
+    second: Confete Colorido sobre Fundo Transparente_39
+  - first:
+      213: 3642328958141804015
+    second: Confete Colorido sobre Fundo Transparente_40
+  - first:
+      213: 1802310962018358293
+    second: Confete Colorido sobre Fundo Transparente_41
+  - first:
+      213: 5740525351885368587
+    second: Confete Colorido sobre Fundo Transparente_42
+  - first:
+      213: 5764612486594016148
+    second: Confete Colorido sobre Fundo Transparente_43
+  - first:
+      213: 8291380171623551015
+    second: Confete Colorido sobre Fundo Transparente_44
+  - first:
+      213: -589522118190175006
+    second: Confete Colorido sobre Fundo Transparente_45
+  - first:
+      213: 5764644495398063054
+    second: Confete Colorido sobre Fundo Transparente_46
+  - first:
+      213: -7667839414006303652
+    second: Confete Colorido sobre Fundo Transparente_47
+  - first:
+      213: 5719853110846444199
+    second: Confete Colorido sobre Fundo Transparente_48
+  - first:
+      213: -6164854529273383207
+    second: Confete Colorido sobre Fundo Transparente_49
+  - first:
+      213: 2204741229401989282
+    second: Confete Colorido sobre Fundo Transparente_50
+  - first:
+      213: 6912210378294056265
+    second: Confete Colorido sobre Fundo Transparente_51
+  - first:
+      213: -1228938291934195871
+    second: Confete Colorido sobre Fundo Transparente_52
+  - first:
+      213: 9196619022626017305
+    second: Confete Colorido sobre Fundo Transparente_53
+  - first:
+      213: 5073480481487546356
+    second: Confete Colorido sobre Fundo Transparente_54
+  - first:
+      213: 8027312216111612986
+    second: Confete Colorido sobre Fundo Transparente_55
+  - first:
+      213: 1460289241723755703
+    second: Confete Colorido sobre Fundo Transparente_56
+  - first:
+      213: -3518079652502638640
+    second: Confete Colorido sobre Fundo Transparente_57
+  - first:
+      213: 2525321371351140711
+    second: Confete Colorido sobre Fundo Transparente_58
+  - first:
+      213: -4273256429707686013
+    second: Confete Colorido sobre Fundo Transparente_59
+  - first:
+      213: -3933889306962107524
+    second: Confete Colorido sobre Fundo Transparente_60
+  - first:
+      213: -2464171557988865009
+    second: Confete Colorido sobre Fundo Transparente_61
+  - first:
+      213: 6506281244173184896
+    second: Confete Colorido sobre Fundo Transparente_62
+  - first:
+      213: -5320601729803597489
+    second: Confete Colorido sobre Fundo Transparente_63
+  - first:
+      213: -6395555503085821053
+    second: Confete Colorido sobre Fundo Transparente_64
+  - first:
+      213: -2435918845758291649
+    second: Confete Colorido sobre Fundo Transparente_65
+  - first:
+      213: -1049907955272914986
+    second: Confete Colorido sobre Fundo Transparente_66
+  - first:
+      213: 385615409274818546
+    second: Confete Colorido sobre Fundo Transparente_67
+  - first:
+      213: -5477197475366771546
+    second: Confete Colorido sobre Fundo Transparente_68
+  - first:
+      213: 3057958284026398798
+    second: Confete Colorido sobre Fundo Transparente_69
+  - first:
+      213: 2280012016728174877
+    second: Confete Colorido sobre Fundo Transparente_70
+  - first:
+      213: 1007328913157537168
+    second: Confete Colorido sobre Fundo Transparente_71
+  - first:
+      213: -4099045854187747574
+    second: Confete Colorido sobre Fundo Transparente_72
+  - first:
+      213: 9149730836277928053
+    second: Confete Colorido sobre Fundo Transparente_73
+  - first:
+      213: -1337493477122927374
+    second: Confete Colorido sobre Fundo Transparente_74
+  - first:
+      213: 3889012772886445511
+    second: Confete Colorido sobre Fundo Transparente_75
+  - first:
+      213: 3877959904260360251
+    second: Confete Colorido sobre Fundo Transparente_76
+  - first:
+      213: -2044634423901209362
+    second: Confete Colorido sobre Fundo Transparente_77
+  - first:
+      213: -465679880273994772
+    second: Confete Colorido sobre Fundo Transparente_78
+  - first:
+      213: 3105678509124954793
+    second: Confete Colorido sobre Fundo Transparente_79
+  - first:
+      213: 8494374817714320376
+    second: Confete Colorido sobre Fundo Transparente_80
+  - first:
+      213: -6906059486250722187
+    second: Confete Colorido sobre Fundo Transparente_81
+  - first:
+      213: 2779957681153326415
+    second: Confete Colorido sobre Fundo Transparente_82
+  - first:
+      213: 1324145046556610052
+    second: Confete Colorido sobre Fundo Transparente_83
+  - first:
+      213: 6351375192407769232
+    second: Confete Colorido sobre Fundo Transparente_84
+  - first:
+      213: 6903574509011743312
+    second: Confete Colorido sobre Fundo Transparente_85
+  - first:
+      213: 2670702587606332721
+    second: Confete Colorido sobre Fundo Transparente_86
+  - first:
+      213: -5646115980772871981
+    second: Confete Colorido sobre Fundo Transparente_87
+  - first:
+      213: 1619372704185657878
+    second: Confete Colorido sobre Fundo Transparente_88
+  - first:
+      213: 2185676656612493259
+    second: Confete Colorido sobre Fundo Transparente_89
+  - first:
+      213: 7537587427093623977
+    second: Confete Colorido sobre Fundo Transparente_90
+  - first:
+      213: -1626799693107118910
+    second: Confete Colorido sobre Fundo Transparente_91
+  - first:
+      213: -2249335271189079120
+    second: Confete Colorido sobre Fundo Transparente_92
+  - first:
+      213: 6206831207125092894
+    second: Confete Colorido sobre Fundo Transparente_93
+  - first:
+      213: -6140855863205405194
+    second: Confete Colorido sobre Fundo Transparente_94
+  - first:
+      213: 7819179601948288979
+    second: Confete Colorido sobre Fundo Transparente_95
+  - first:
+      213: 524780128168108642
+    second: Confete Colorido sobre Fundo Transparente_96
+  - first:
+      213: 6317364594274145091
+    second: Confete Colorido sobre Fundo Transparente_97
+  - first:
+      213: -901724191687949952
+    second: Confete Colorido sobre Fundo Transparente_98
+  - first:
+      213: 4007232003059251925
+    second: Confete Colorido sobre Fundo Transparente_99
+  - first:
+      213: 8291958235963454322
+    second: Confete Colorido sobre Fundo Transparente_100
+  - first:
+      213: 7398111335669437319
+    second: Confete Colorido sobre Fundo Transparente_101
+  - first:
+      213: 206452039801367745
+    second: Confete Colorido sobre Fundo Transparente_102
+  - first:
+      213: 9168052337218143995
+    second: Confete Colorido sobre Fundo Transparente_103
+  - first:
+      213: 1962626515884227159
+    second: Confete Colorido sobre Fundo Transparente_104
+  - first:
+      213: -7863504285285426599
+    second: Confete Colorido sobre Fundo Transparente_105
+  - first:
+      213: -1021551762561615012
+    second: Confete Colorido sobre Fundo Transparente_106
+  - first:
+      213: -7454159493954006425
+    second: Confete Colorido sobre Fundo Transparente_107
+  - first:
+      213: 4455191020049791715
+    second: Confete Colorido sobre Fundo Transparente_108
+  - first:
+      213: 4129901078035638680
+    second: Confete Colorido sobre Fundo Transparente_109
+  - first:
+      213: 8236863821395901598
+    second: Confete Colorido sobre Fundo Transparente_110
+  - first:
+      213: -4577977155746017253
+    second: Confete Colorido sobre Fundo Transparente_111
+  - first:
+      213: -5103117332734972408
+    second: Confete Colorido sobre Fundo Transparente_112
+  - first:
+      213: -7323516605743409407
+    second: Confete Colorido sobre Fundo Transparente_113
+  - first:
+      213: 2792458857518810751
+    second: Confete Colorido sobre Fundo Transparente_114
+  - first:
+      213: -4654193652957655970
+    second: Confete Colorido sobre Fundo Transparente_115
+  - first:
+      213: 2961009270932936236
+    second: Confete Colorido sobre Fundo Transparente_116
+  - first:
+      213: 7152838053293405284
+    second: Confete Colorido sobre Fundo Transparente_117
+  - first:
+      213: -7836685051387878294
+    second: Confete Colorido sobre Fundo Transparente_118
+  - first:
+      213: -642416528522665921
+    second: Confete Colorido sobre Fundo Transparente_119
+  - first:
+      213: -2889459134677619359
+    second: Confete Colorido sobre Fundo Transparente_120
+  - first:
+      213: 6445007148614374118
+    second: Confete Colorido sobre Fundo Transparente_121
+  - first:
+      213: 7633592570919617764
+    second: Confete Colorido sobre Fundo Transparente_122
+  - first:
+      213: -3321768325577479892
+    second: Confete Colorido sobre Fundo Transparente_123
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4d41c9889b78200800000000000000
+      internalID: 182318306317096151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 915
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0df2276531464b50800000000000000
+      internalID: 6577016003440606474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_2
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 931
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fff74c1d8857c8b0800000000000000
+      internalID: -5132035887277277197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 948
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4a82ced9de8b210800000000000000
+      internalID: 1349089350925198579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_4
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 921
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70b6f096927b22e0800000000000000
+      internalID: -2149498406136532866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_5
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 943
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2145a344157d4660800000000000000
+      internalID: 7371676894970069293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 925
+        width: 54
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae6e8f41b13b89d0800000000000000
+      internalID: -2771066508102701398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 903
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abe065a7da3e3be0800000000000000
+      internalID: -1495693328373453913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_8
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 887
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5127669e071680030800000000000000
+      internalID: 3461123451214262805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_9
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 908
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a681cb6953d63ac90800000000000000
+      internalID: -7159758905659352982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_10
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 903
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534d1b441df1efb10800000000000000
+      internalID: 2017084666769691701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_11
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 921
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aaccbcf3007aa150800000000000000
+      internalID: 5884639025540418216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 876
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57a5ffc9ed924760800000000000000
+      internalID: 7440683161911404381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_13
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 878
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a615a3cb5d98c90800000000000000
+      internalID: -7166962327574451659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_14
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 879
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29d525b279aec890800000000000000
+      internalID: -7435819624611587797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_15
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 869
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821117ce9c94a6120800000000000000
+      internalID: 2407818082387038504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 818
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70265746915efedb0800000000000000
+      internalID: -4760334383884967417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_17
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 801
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042fdb6c344b0d860800000000000000
+      internalID: 7552734778290467392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_18
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 802
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc6c448511e3b890800000000000000
+      internalID: -7443358276583134015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_19
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 797
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad983910f85c08200800000000000000
+      internalID: 180361203092261338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_20
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 807
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6a8d03d4a885770800000000000000
+      internalID: 8599775552600581882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_21
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 808
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316ce218cf5f07530800000000000000
+      internalID: 3850848146249664019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_22
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 831
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a2a366b20f18850800000000000000
+      internalID: 6377642616522680885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_23
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 808
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f21979135eb022f0800000000000000
+      internalID: -999589853157321999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_24
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 824
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3352b05fb6fb63b0800000000000000
+      internalID: -5518045616859360453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 779
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a57217fdf975520800000000000000
+      internalID: 2690795084402088517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_26
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 775
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a769eb135ecf0e00800000000000000
+      internalID: 1013255297527539625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_27
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 791
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0247dbcef5dc7d0800000000000000
+      internalID: -2896553514933935881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_28
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 737
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44685bc1d41453d10800000000000000
+      internalID: 2104660200315520580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_29
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 711
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3cc7ff620ff8a40800000000000000
+      internalID: 5372776930762081222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_30
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 743
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f07082f782ed35d0800000000000000
+      internalID: -3081057496534585098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_31
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 721
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac61798813b09920800000000000000
+      internalID: 2995090670167878831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_32
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 731
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e76d78c5dbcd07a0800000000000000
+      internalID: -6409242575626213403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_33
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 752
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984726a3bd9cdba10800000000000000
+      internalID: 1926918158998992009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_34
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 697
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0e84de685cbf430800000000000000
+      internalID: 3817862292423893214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_35
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 701
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf7b8d812cfc3ea0800000000000000
+      internalID: -5891556991468601379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_36
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 705
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df57ac34cdbfc320800000000000000
+      internalID: 2580489762035425235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_37
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 703
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd83fc0d9a2db8720800000000000000
+      internalID: 2849602816036518107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_38
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 680
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cca244e96c590e90800000000000000
+      internalID: -7059009331055645503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_39
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 647
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aaff13b62fc7780800000000000000
+      internalID: -8683799439262897653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_40
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 655
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed2929b3e62c8230800000000000000
+      internalID: 3642328958141804015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_41
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 651
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51495e95548130910800000000000000
+      internalID: 1802310962018358293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_42
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 647
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d604794617aaf40800000000000000
+      internalID: 5740525351885368587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_43
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 631
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493b73ba384000050800000000000000
+      internalID: 5764612486594016148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_44
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 655
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720d6532656e01370800000000000000
+      internalID: 8291380171623551015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_45
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 629
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ece906c1c891d7f0800000000000000
+      internalID: -589522118190175006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_46
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 655
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbcc9c40a1200050800000000000000
+      internalID: 5764644495398063054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_47
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 600
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c543a6dcdac569590800000000000000
+      internalID: -7667839414006303652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_48
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 597
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a25a676910016f40800000000000000
+      internalID: 5719853110846444199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_49
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 634
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6b3bae779027aa0800000000000000
+      internalID: -6164854529273383207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_50
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 628
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0e9288770d89e10800000000000000
+      internalID: 2204741229401989282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_51
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 568
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9455cf277ba1def50800000000000000
+      internalID: 6912210378294056265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_52
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 583
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f036a722fe1fee0800000000000000
+      internalID: -1228938291934195871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_53
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 561
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910593a7644f0af70800000000000000
+      internalID: 9196619022626017305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_54
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 512
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f761f11e9f986640800000000000000
+      internalID: 5073480481487546356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_55
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 527
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a348c761eedb66f60800000000000000
+      internalID: 8027312216111612986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_56
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 521
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcd442145df34410800000000000000
+      internalID: 1460289241723755703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_57
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 515
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfec0512354d2fc0800000000000000
+      internalID: -3518079652502638640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_58
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 547
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7694613586ebb0320800000000000000
+      internalID: 2525321371351140711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_59
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 495
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f8e19fae752b4c0800000000000000
+      internalID: -4273256429707686013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_60
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 488
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73e0d894840869c0800000000000000
+      internalID: -3933889306962107524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_61
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 503
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ce37416018dcdd0800000000000000
+      internalID: -2464171557988865009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_62
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 479
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08faabfd154fa4a50800000000000000
+      internalID: 6506281244173184896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_63
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 456
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f494abf9aec6926b0800000000000000
+      internalID: -5320601729803597489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_64
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 449
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3836641b72c6e37a0800000000000000
+      internalID: -6395555503085821053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_65
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 398
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31c5e047b0e13ed0800000000000000
+      internalID: -2435918845758291649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_66
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 427
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7e91ff64afd61f0800000000000000
+      internalID: -1049907955272914986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_67
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 438
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff0eb1fb2bf95500800000000000000
+      internalID: 385615409274818546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_68
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 429
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4e8146ae51df3b0800000000000000
+      internalID: -5477197475366771546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_69
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 424
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e484b598bdc007a20800000000000000
+      internalID: 3057958284026398798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_70
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 441
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1174b469da34af10800000000000000
+      internalID: 2280012016728174877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_71
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 395
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d3cb83f40cafd00800000000000000
+      internalID: 1007328913157537168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_72
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 401
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a070a1763834d17c0800000000000000
+      internalID: -4099045854187747574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_73
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 399
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570a8ced7bf5afe70800000000000000
+      internalID: 9149730836277928053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_74
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 402
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f49fa6d4c4407de0800000000000000
+      internalID: -1337493477122927374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_75
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 403
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd7ad6138c88f530800000000000000
+      internalID: 3889012772886445511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_76
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 363
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3885a29cf741d530800000000000000
+      internalID: 3877959904260360251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_77
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 387
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec35db03dfff93e0800000000000000
+      internalID: -2044634423901209362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_78
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 353
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebd83dbd929989f0800000000000000
+      internalID: -465679880273994772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_79
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 341
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa25f24626991b20800000000000000
+      internalID: 3105678509124954793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_80
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 338
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3b2ee34e412e570800000000000000
+      internalID: 8494374817714320376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_81
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 336
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c1f44bc7fb820a0800000000000000
+      internalID: -6906059486250722187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_82
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 360
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d33cb38c4649620800000000000000
+      internalID: 2779957681153326415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_83
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 361
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e891b77ee406210800000000000000
+      internalID: 1324145046556610052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_84
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 343
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09081b2261e942850800000000000000
+      internalID: 6351375192407769232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_85
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 335
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0523612707c6ecf50800000000000000
+      internalID: 6903574509011743312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_86
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 324
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135fdfa7add301520800000000000000
+      internalID: 2670702587606332721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 299
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0706d0e67f4a1b0800000000000000
+      internalID: -5646115980772871981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_88
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 279
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a23f705ea297610800000000000000
+      internalID: 1619372704185657878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_89
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 273
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc74047c655155e10800000000000000
+      internalID: 2185676656612493259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_90
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 305
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4bd5f34d3ea9860800000000000000
+      internalID: 7537587427093623977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_91
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 303
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccb2ab5c427c69e0800000000000000
+      internalID: -1626799693107118910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_92
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 302
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb94040d71c8c0e0800000000000000
+      internalID: -2249335271189079120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_93
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 292
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a00810918132650800000000000000
+      internalID: 6206831207125092894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_94
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 259
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd54c8c02c47caa0800000000000000
+      internalID: -6140855863205405194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_95
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 227
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7ab119b6e438c60800000000000000
+      internalID: 7819179601948288979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_96
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 265
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262e4a40fb4684700800000000000000
+      internalID: 524780128168108642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_97
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 207
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343175ea0a9cba750800000000000000
+      internalID: 6317364594274145091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_98
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 199
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081401d00ae6c73f0800000000000000
+      internalID: -901724191687949952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_99
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 229
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da7cea864c8c9730800000000000000
+      internalID: 4007232003059251925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_100
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 208
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273f9fa3514f21370800000000000000
+      internalID: 8291958235963454322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_101
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 215
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7831e5b101f5ba660800000000000000
+      internalID: 7398111335669437319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_102
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 210
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cce38f49077dd200800000000000000
+      internalID: 206452039801367745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_103
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 215
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6c31ab6077b3f70800000000000000
+      internalID: 9168052337218143995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_104
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 192
+        width: 45
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75aba02fa66ac3b10800000000000000
+      internalID: 1962626515884227159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_105
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 202
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95adcc1e3883fd290800000000000000
+      internalID: -7863504285285426599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_106
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 199
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b37d89518b2d1f0800000000000000
+      internalID: -1021551762561615012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_107
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 185
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76214cf1f618d8890800000000000000
+      internalID: -7454159493954006425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_108
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 152
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaf39cc0a404dd30800000000000000
+      internalID: 4455191020049791715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_109
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 169
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89921d9362b505930800000000000000
+      internalID: 4129901078035638680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_110
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 184
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cb19931083f4270800000000000000
+      internalID: 8236863821395901598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_111
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 163
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10d7e13802c770c0800000000000000
+      internalID: -4577977155746017253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 122
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e6137c2d51e29b0800000000000000
+      internalID: -5103117332734972408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_113
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 89
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1075dffd274ad5a90800000000000000
+      internalID: -7323516605743409407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_114
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 104
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f764d4c298ec0c620800000000000000
+      internalID: 2792458857518810751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_115
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 93
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cc497188bf86fb0800000000000000
+      internalID: -4654193652957655970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_116
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 127
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26989a6e3e971920800000000000000
+      internalID: 2961009270932936236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_117
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 51
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4643376ef4cf34360800000000000000
+      internalID: 7152838053293405284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_118
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 64
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64696f57708e3390800000000000000
+      internalID: -7836685051387878294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_119
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 58
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30219b229da517f0800000000000000
+      internalID: -642416528522665921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_120
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 63
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d688cd93496e7d0800000000000000
+      internalID: -2889459134677619359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_121
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 71
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e25304cad3417950800000000000000
+      internalID: 6445007148614374118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_122
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 66
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e489bdaff7ffe960800000000000000
+      internalID: 7633592570919617764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Confete Colorido sobre Fundo Transparente_123
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 37
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c296fcfae45b6e1d0800000000000000
+      internalID: -3321768325577479892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
