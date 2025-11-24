@@ -465,6 +465,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3209,7 +3235,131 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Confete Colorido sobre Fundo Transparente_0: 182318306317096151
+      Confete Colorido sobre Fundo Transparente_1: 6577016003440606474
+      Confete Colorido sobre Fundo Transparente_10: 2017084666769691701
+      Confete Colorido sobre Fundo Transparente_100: 8291958235963454322
+      Confete Colorido sobre Fundo Transparente_101: 7398111335669437319
+      Confete Colorido sobre Fundo Transparente_102: 206452039801367745
+      Confete Colorido sobre Fundo Transparente_103: 9168052337218143995
+      Confete Colorido sobre Fundo Transparente_104: 1962626515884227159
+      Confete Colorido sobre Fundo Transparente_105: -7863504285285426599
+      Confete Colorido sobre Fundo Transparente_106: -1021551762561615012
+      Confete Colorido sobre Fundo Transparente_107: -7454159493954006425
+      Confete Colorido sobre Fundo Transparente_108: 4455191020049791715
+      Confete Colorido sobre Fundo Transparente_109: 4129901078035638680
+      Confete Colorido sobre Fundo Transparente_11: 5884639025540418216
+      Confete Colorido sobre Fundo Transparente_110: 8236863821395901598
+      Confete Colorido sobre Fundo Transparente_111: -4577977155746017253
+      Confete Colorido sobre Fundo Transparente_112: -5103117332734972408
+      Confete Colorido sobre Fundo Transparente_113: -7323516605743409407
+      Confete Colorido sobre Fundo Transparente_114: 2792458857518810751
+      Confete Colorido sobre Fundo Transparente_115: -4654193652957655970
+      Confete Colorido sobre Fundo Transparente_116: 2961009270932936236
+      Confete Colorido sobre Fundo Transparente_117: 7152838053293405284
+      Confete Colorido sobre Fundo Transparente_118: -7836685051387878294
+      Confete Colorido sobre Fundo Transparente_119: -642416528522665921
+      Confete Colorido sobre Fundo Transparente_12: 7440683161911404381
+      Confete Colorido sobre Fundo Transparente_120: -2889459134677619359
+      Confete Colorido sobre Fundo Transparente_121: 6445007148614374118
+      Confete Colorido sobre Fundo Transparente_122: 7633592570919617764
+      Confete Colorido sobre Fundo Transparente_123: -3321768325577479892
+      Confete Colorido sobre Fundo Transparente_13: -7166962327574451659
+      Confete Colorido sobre Fundo Transparente_14: -7435819624611587797
+      Confete Colorido sobre Fundo Transparente_15: 2407818082387038504
+      Confete Colorido sobre Fundo Transparente_16: -4760334383884967417
+      Confete Colorido sobre Fundo Transparente_17: 7552734778290467392
+      Confete Colorido sobre Fundo Transparente_18: -7443358276583134015
+      Confete Colorido sobre Fundo Transparente_19: 180361203092261338
+      Confete Colorido sobre Fundo Transparente_2: -5132035887277277197
+      Confete Colorido sobre Fundo Transparente_20: 8599775552600581882
+      Confete Colorido sobre Fundo Transparente_21: 3850848146249664019
+      Confete Colorido sobre Fundo Transparente_22: 6377642616522680885
+      Confete Colorido sobre Fundo Transparente_23: -999589853157321999
+      Confete Colorido sobre Fundo Transparente_24: -5518045616859360453
+      Confete Colorido sobre Fundo Transparente_25: 2690795084402088517
+      Confete Colorido sobre Fundo Transparente_26: 1013255297527539625
+      Confete Colorido sobre Fundo Transparente_27: -2896553514933935881
+      Confete Colorido sobre Fundo Transparente_28: 2104660200315520580
+      Confete Colorido sobre Fundo Transparente_29: 5372776930762081222
+      Confete Colorido sobre Fundo Transparente_3: 1349089350925198579
+      Confete Colorido sobre Fundo Transparente_30: -3081057496534585098
+      Confete Colorido sobre Fundo Transparente_31: 2995090670167878831
+      Confete Colorido sobre Fundo Transparente_32: -6409242575626213403
+      Confete Colorido sobre Fundo Transparente_33: 1926918158998992009
+      Confete Colorido sobre Fundo Transparente_34: 3817862292423893214
+      Confete Colorido sobre Fundo Transparente_35: -5891556991468601379
+      Confete Colorido sobre Fundo Transparente_36: 2580489762035425235
+      Confete Colorido sobre Fundo Transparente_37: 2849602816036518107
+      Confete Colorido sobre Fundo Transparente_38: -7059009331055645503
+      Confete Colorido sobre Fundo Transparente_39: -8683799439262897653
+      Confete Colorido sobre Fundo Transparente_4: -2149498406136532866
+      Confete Colorido sobre Fundo Transparente_40: 3642328958141804015
+      Confete Colorido sobre Fundo Transparente_41: 1802310962018358293
+      Confete Colorido sobre Fundo Transparente_42: 5740525351885368587
+      Confete Colorido sobre Fundo Transparente_43: 5764612486594016148
+      Confete Colorido sobre Fundo Transparente_44: 8291380171623551015
+      Confete Colorido sobre Fundo Transparente_45: -589522118190175006
+      Confete Colorido sobre Fundo Transparente_46: 5764644495398063054
+      Confete Colorido sobre Fundo Transparente_47: -7667839414006303652
+      Confete Colorido sobre Fundo Transparente_48: 5719853110846444199
+      Confete Colorido sobre Fundo Transparente_49: -6164854529273383207
+      Confete Colorido sobre Fundo Transparente_5: 7371676894970069293
+      Confete Colorido sobre Fundo Transparente_50: 2204741229401989282
+      Confete Colorido sobre Fundo Transparente_51: 6912210378294056265
+      Confete Colorido sobre Fundo Transparente_52: -1228938291934195871
+      Confete Colorido sobre Fundo Transparente_53: 9196619022626017305
+      Confete Colorido sobre Fundo Transparente_54: 5073480481487546356
+      Confete Colorido sobre Fundo Transparente_55: 8027312216111612986
+      Confete Colorido sobre Fundo Transparente_56: 1460289241723755703
+      Confete Colorido sobre Fundo Transparente_57: -3518079652502638640
+      Confete Colorido sobre Fundo Transparente_58: 2525321371351140711
+      Confete Colorido sobre Fundo Transparente_59: -4273256429707686013
+      Confete Colorido sobre Fundo Transparente_6: -2771066508102701398
+      Confete Colorido sobre Fundo Transparente_60: -3933889306962107524
+      Confete Colorido sobre Fundo Transparente_61: -2464171557988865009
+      Confete Colorido sobre Fundo Transparente_62: 6506281244173184896
+      Confete Colorido sobre Fundo Transparente_63: -5320601729803597489
+      Confete Colorido sobre Fundo Transparente_64: -6395555503085821053
+      Confete Colorido sobre Fundo Transparente_65: -2435918845758291649
+      Confete Colorido sobre Fundo Transparente_66: -1049907955272914986
+      Confete Colorido sobre Fundo Transparente_67: 385615409274818546
+      Confete Colorido sobre Fundo Transparente_68: -5477197475366771546
+      Confete Colorido sobre Fundo Transparente_69: 3057958284026398798
+      Confete Colorido sobre Fundo Transparente_7: -1495693328373453913
+      Confete Colorido sobre Fundo Transparente_70: 2280012016728174877
+      Confete Colorido sobre Fundo Transparente_71: 1007328913157537168
+      Confete Colorido sobre Fundo Transparente_72: -4099045854187747574
+      Confete Colorido sobre Fundo Transparente_73: 9149730836277928053
+      Confete Colorido sobre Fundo Transparente_74: -1337493477122927374
+      Confete Colorido sobre Fundo Transparente_75: 3889012772886445511
+      Confete Colorido sobre Fundo Transparente_76: 3877959904260360251
+      Confete Colorido sobre Fundo Transparente_77: -2044634423901209362
+      Confete Colorido sobre Fundo Transparente_78: -465679880273994772
+      Confete Colorido sobre Fundo Transparente_79: 3105678509124954793
+      Confete Colorido sobre Fundo Transparente_8: 3461123451214262805
+      Confete Colorido sobre Fundo Transparente_80: 8494374817714320376
+      Confete Colorido sobre Fundo Transparente_81: -6906059486250722187
+      Confete Colorido sobre Fundo Transparente_82: 2779957681153326415
+      Confete Colorido sobre Fundo Transparente_83: 1324145046556610052
+      Confete Colorido sobre Fundo Transparente_84: 6351375192407769232
+      Confete Colorido sobre Fundo Transparente_85: 6903574509011743312
+      Confete Colorido sobre Fundo Transparente_86: 2670702587606332721
+      Confete Colorido sobre Fundo Transparente_87: -5646115980772871981
+      Confete Colorido sobre Fundo Transparente_88: 1619372704185657878
+      Confete Colorido sobre Fundo Transparente_89: 2185676656612493259
+      Confete Colorido sobre Fundo Transparente_9: -7159758905659352982
+      Confete Colorido sobre Fundo Transparente_90: 7537587427093623977
+      Confete Colorido sobre Fundo Transparente_91: -1626799693107118910
+      Confete Colorido sobre Fundo Transparente_92: -2249335271189079120
+      Confete Colorido sobre Fundo Transparente_93: 6206831207125092894
+      Confete Colorido sobre Fundo Transparente_94: -6140855863205405194
+      Confete Colorido sobre Fundo Transparente_95: 7819179601948288979
+      Confete Colorido sobre Fundo Transparente_96: 524780128168108642
+      Confete Colorido sobre Fundo Transparente_97: 6317364594274145091
+      Confete Colorido sobre Fundo Transparente_98: -901724191687949952
+      Confete Colorido sobre Fundo Transparente_99: 4007232003059251925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
